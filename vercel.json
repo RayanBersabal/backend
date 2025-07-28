@@ -14,7 +14,7 @@
     "env": {
         "APP_ENV": "production",
         "APP_DEBUG": "false",
-        "APP_URL": "https://backend-l177c4tf0-rayan-bersabals-projects.vercel.app",
+        "APP_URL": "https://backend-zeta-three-92.vercel.app/",
         "APP_KEY": "base64:G4Dw3ws3upcXj7gOhg4rBKj97it03IJ3mtnGUjUb67I=",
         "APP_CONFIG_CACHE": "/tmp/config.php",
         "APP_EVENTS_CACHE": "/tmp/events.php",
