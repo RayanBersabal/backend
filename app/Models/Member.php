@@ -26,4 +26,13 @@ class Member extends Model
         'role' => 'array', // Casting ke array saat diambil dari DB
         'task' => 'array', // Casting ke array saat diambil dari DB
     ];
+    public function getRoleAttribute($value)
+    {
+        return $value ? json_decode($value, true) : [];
+    }
+
+    public function getTaskAttribute($value)
+    {
+        return $value ? json_decode($value, true) : [];
+    }
 }

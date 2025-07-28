@@ -14,8 +14,8 @@ return new class extends Migration
         Schema::create('members', function (Blueprint $table) {
             $table->id();
             $table->string('name');
-            $table->json('role')->default(json_encode([])); // Menggunakan JSON untuk array role
-            $table->json('task')->default(json_encode([]));  // Menggunakan JSON untuk array task
+            $table->json('role'); // Menggunakan JSON untuk array role
+            $table->json('task');  // Menggunakan JSON untuk array task
             $table->string('image')->nullable(); // URL gambar avatar
             $table->string('github')->nullable(); // URL profil GitHub
             $table->timestamps(); // created_at dan updated_at
