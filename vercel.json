@@ -24,7 +24,6 @@
     "DB_PORT": "3306",
     "DB_DATABASE": "santapindb_meshownate",
     "DB_USERNAME": "santapindb_meshownate",
-    "DB_PASSWORD": "YOUR_DB_PASSWORD",
 
     "VIEW_COMPILED_PATH": "/tmp",
     "APP_CONFIG_CACHE": "/tmp/config.php",
