@@ -6,20 +6,18 @@
     }
   },
   "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "/api/index.php"
-    }
+    { "src": "/(.*)", "dest": "/api/index.php" }
   ],
   "env": {
-    "APP_NAME": "Santapin",
     "APP_ENV": "production",
-    "APP_KEY": "base64:G4Dw3ws3upcXj7gOhg4rBKj97it03IJ3mtnGUjUb67I=",
     "APP_DEBUG": "false",
-    "APP_URL": "https://backend-zeta-three-92.vercel.app",
+    "APP_KEY": "base64:G4Dw3ws3upcXj7gOhg4rBKj97it03IJ3mtnGUjUb67I=",
+    "APP_URL": "https://santapin-backend.vercel.app",
 
     "LOG_CHANNEL": "stderr",
-    "LOG_LEVEL": "debug",
+    "CACHE_DRIVER": "array",
+    "SESSION_DRIVER": "array",
+    "QUEUE_CONNECTION": "sync",
 
     "DB_CONNECTION": "mysql",
     "DB_HOST": "ck0xbi.h.filess.io",
@@ -28,18 +26,11 @@
     "DB_USERNAME": "santapindb_meshownate",
     "DB_PASSWORD": "YOUR_DB_PASSWORD",
 
-    "CACHE_DRIVER": "array",
-    "SESSION_DRIVER": "array",
-    "QUEUE_CONNECTION": "sync",
-    "FILESYSTEM_DISK": "local",
-
     "VIEW_COMPILED_PATH": "/tmp",
     "APP_CONFIG_CACHE": "/tmp/config.php",
     "APP_EVENTS_CACHE": "/tmp/events.php",
     "APP_PACKAGES_CACHE": "/tmp/packages.php",
     "APP_ROUTES_CACHE": "/tmp/routes.php",
-    "APP_SERVICES_CACHE": "/tmp/services.php",
-
-    "SANCTUM_STATEFUL_DOMAINS": ""
+    "APP_SERVICES_CACHE": "/tmp/services.php"
   }
 }
