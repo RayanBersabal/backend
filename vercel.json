@@ -8,6 +8,9 @@
   "routes": [
     { "src": "/(.*)", "dest": "/api/index.php" }
   ],
+  "installCommand": "composer install",
+  "buildCommand": "",
+  "outputDirectory": "api",
   "env": {
     "APP_ENV": "production",
     "APP_DEBUG": "false",
@@ -24,6 +27,7 @@
     "DB_PORT": "3306",
     "DB_DATABASE": "santapindb_meshownate",
     "DB_USERNAME": "santapindb_meshownate",
+
 
     "VIEW_COMPILED_PATH": "/tmp",
     "APP_CONFIG_CACHE": "/tmp/config.php",
